@@ -5,7 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./assets/pexels-pixabay-459451.jpg');
+
+  animation: change 20s infinite;
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
 }
+ 
+ @keyframes change{
+  0%{background-image: url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')}
+  25%{background-image: url('https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') }
+  50%{background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')}
+  75%{background-image: url('https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')}
+  100%{background-image: url('https://images.pexels.com/photos/459451/pexels-photo-459451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')}
+} 
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
